@@ -6,25 +6,26 @@ header{background-color: #1d1d1d;}
 .menu1 a{color: rgb(173, 136, 79); font-family: 'Georgia', Times, serif; font-size: 20px;}
 
 .textoinicial{margin-left: 100px;}
-.textoinicial h1{color:white}
 .textoinicial h2{font-size: large;}
 .textoinicial h2,p{color:white}
 
+.dropdown{margin-left: 900px;}
 .destaques img{width: 100%; margin-bottom: 40px; margin-top: 20px;}
-.destaques{color:white}
+.destaques{color: rgb(173, 136, 79)}
 
 .mtrailer{margin-top: 20px; margin-bottom: 20px;}
-.mtrailer{color:white}
+.mtrailer{color:rgb(173, 136, 79)}
+
 
 .titulolancamento{margin-top: 20px; margin-bottom: 20px; margin-left: 500px;}
-.titulolancamento{color:white}
+.titulolancamento{color:rgb(173, 136, 79)}
 
 .avaliacoes{background-color:#1d1d1d; padding: 10px; padding-bottom: 10px;}
 .avaliacoes{color: white;}
 .avaliacoes h5, p2{margin-top: 45px;}
 .avaliacoes h5, p1{color:white}
 .avaliacoes h3{margin-bottom: 20px;}
-.avaliacoes h3{color:white}
+.avaliacoes h3{color: rgb(173, 136, 79); font-family: 'Georgia'}
 .avaliacoes h1, h2{font-size: 1.5em;}
 .avaliacoes h1, h2{color:white}
 .avaliacoes h2{margin-top: 50px;}
@@ -32,18 +33,32 @@ header{background-color: #1d1d1d;}
 .avaliacoes p{margin-top: 20px;}
 
 .novidades{margin-top: 40px;}
-.novidades h1{font-size: 2.5em; margin-bottom: 100px; margin-left: 500px}
+.novidades h1{font-size: 2.5em; margin-bottom: 100px; margin-left: 600px}
 .novidades li{margin-bottom: 10px;}
-.novidades{color:white}
+.novidades{color:rgb(173, 136, 79)}
 
-.sobre h1{color:white}
-
-.edital{text-align: right; margin-right: 250px; margin-top: -100px;}
+.edital{text-align: right; margin-right: 250px; margin-top: -135px;}
 .edital h1{margin-right: 250px;}
+.edital p1{color: rgb(139, 139, 139)}
 .edital p1{margin-right: 50px;}
 .edital p2{margin-right: 50px;}
 .edital p3{margin-right: 10px;}
-.edital{color:white}
+.edital{color:rgb(139, 139, 139)}
 
-.rodape{text-align: center; margin-top: 10px; padding: 5px;background-color: #1d1d1d}
+.sobre{color:rgb(139, 139, 139)}
+
+.rodape{text-align: center; margin-top: 100px; padding: 5px;background-color: #1d1d1d}
+
+@media screen and (max-width:600px){
+    .menu1{
+        background-position: 100px 100px;
+    }
+}
+
+/*Media queries*/
+
+      @media (max-width: 1024px) {
+        .edital, .menu1{display: none;}
+        .btn-toggle{display: block;}
+      }
 
